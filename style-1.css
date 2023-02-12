@@ -1,0 +1,122 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo{
+    padding: 2px;
+    background-color: black;
+}
+.image{
+    
+    height:20px;
+    width:50px;
+}
+li {
+  list-style: none;
+  cursor: pointer;
+  color: black;
+}
+
+
+button {
+  background-color: rgb(82, 82, 152);
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+ 
+  border: 5px solid rgb(82, 82, 152);
+  border-radius: 5px;
+ width:130px;
+  margin-right: 150px;
+}
+
+
+
+header {
+  display: flex;
+  padding: 15px 0;
+  width: 100%;
+
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+nav .logo {
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+
+
+.hero-section {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-section {
+  width: 72%;
+  padding: 0;
+}
+
+.hero-left-section h1 {
+  font-weight: 700px;
+  font-size: 60px;
+  margin-bottom: 16px;
+  
+}
+.hero-left-section h1 span {
+  color:  rgb(82, 82, 152);
+  font-weight: 850; 
+  padding: 0 15px;
+}
+
+.hero-left-section p {
+  font-weight: lighter;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+
+
+.hero-right-section {
+ margin-left: 250px;;
+  width: 60%;
+}
+
+.hero-right-section img {
+  height: 300px;
+  width: 300px;
+ ;
+}
